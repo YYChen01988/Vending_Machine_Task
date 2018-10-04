@@ -13,7 +13,6 @@ public class Coin {
         return coinType;
     }
 
-
     public double getValue() {
         return this.coinType.getValue();
     }
