@@ -33,4 +33,12 @@ public abstract class Slot {
     public int productCount() {
         return products.size();
     }
+
+//    public void addProduct(Product product){
+//        products.add(product);
+//    }
+
+//    public void removeProduct(){
+//        products.remove(0);
+//    }
 }

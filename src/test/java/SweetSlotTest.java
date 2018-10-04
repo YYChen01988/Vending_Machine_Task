@@ -1,7 +1,9 @@
 import org.junit.Before;
 import org.junit.Test;
 import product.ProductType;
-import vendingMachine.slot.DrinkSlot;
+import product.Sweet;
+
+
 import vendingMachine.slot.SweetSlot;
 
 import static org.junit.Assert.assertEquals;
@@ -9,10 +11,12 @@ import static org.junit.Assert.assertEquals;
 public class SweetSlotTest {
 
     SweetSlot sweetSlot;
+    Sweet chocolate;
 
     @Before
     public void before() {
-        sweetSlot = new SweetSlot(0.65, 55, 10);
+        sweetSlot = new SweetSlot(0.65, 55, 2);
+        chocolate = new Sweet("Chocolate");
     }
 
     @Test
@@ -27,11 +31,26 @@ public class SweetSlotTest {
 
     @Test
     public void hasCapacity() {
-        assertEquals(10, sweetSlot.getCapacity());
+        assertEquals(2, sweetSlot.getCapacity());
     }
 
     @Test
     public void hasType() {
         assertEquals(ProductType.SWEET, sweetSlot.getProductType());
+    }
+
+    @Test
+    public void canAddDrink() {
+        sweetSlot.addSweets(chocolate);
+        sweetSlot.addSweets(chocolate);
+        sweetSlot.addSweets(chocolate);
+        assertEquals(2, sweetSlot.getSweetCount());
+    }
+
+    @Test
+    public void canRemoveDrink() {
+        sweetSlot.addSweets(chocolate);
+        sweetSlot.removeSweet();
+        assertEquals(0, sweetSlot.getSweetCount());
     }
 }

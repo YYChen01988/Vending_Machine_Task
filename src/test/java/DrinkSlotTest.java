@@ -1,5 +1,7 @@
 import org.junit.Before;
 import org.junit.Test;
+import product.Drink;
+import product.Product;
 import product.ProductType;
 import vendingMachine.slot.DrinkSlot;
 
@@ -8,10 +10,12 @@ import static org.junit.Assert.assertEquals;
 public class DrinkSlotTest {
 
     DrinkSlot drinkSlot;
+    Drink drink;
 
     @Before
     public void before() {
-        drinkSlot = new DrinkSlot(1.00, 43, 10);
+        drinkSlot = new DrinkSlot(1.00, 43, 2);
+        drink = new Drink("Cola");
     }
 
     @Test
@@ -26,11 +30,28 @@ public class DrinkSlotTest {
 
     @Test
     public void hasCapacity() {
-        assertEquals(10, drinkSlot.getCapacity());
+        assertEquals(2, drinkSlot.getCapacity());
     }
 
     @Test
     public void hasType() {
         assertEquals(ProductType.DRINK, drinkSlot.getProductType());
     }
+
+    @Test
+    public void canAddDrink() {
+        drinkSlot.addDrinks(drink);
+        drinkSlot.addDrinks(drink);
+        drinkSlot.addDrinks(drink);
+        assertEquals(2, drinkSlot.getDrinkCount());
+    }
+
+    @Test
+    public void canRemoveDrink() {
+        drinkSlot.addDrinks(drink);
+        drinkSlot.removeDrink();
+        assertEquals(0, drinkSlot.getDrinkCount());
+    }
+
+
 }
