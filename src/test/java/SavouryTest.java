@@ -1,6 +1,6 @@
 import org.junit.Before;
 import org.junit.Test;
-import product.Drink;
+import product.ProductType;
 import product.Savoury;
 
 import static org.junit.Assert.assertEquals;
@@ -11,7 +11,7 @@ public class SavouryTest {
 
     @Before
     public void before() {
-        savoury = new Savoury("Crisps",11, 0.50);
+        savoury = new Savoury("Crisps");
     }
 
     @Test
@@ -20,12 +20,17 @@ public class SavouryTest {
     }
 
     @Test
-    public void hasProductCode() {
-        assertEquals(11, savoury.getProductCode());
+    public void hasType() {
+        assertEquals(ProductType.SAVOURY, savoury.getProductType());
     }
 
-    @Test
-    public void hasPrice() {
-        assertEquals(0.50, savoury.getPrice(), 0.00);
-    }
+    //    @Test
+//    public void hasProductCode() {
+//        assertEquals(11, savoury.getProductCode());
+//    }
+//
+//    @Test
+//    public void hasPrice() {
+//        assertEquals(0.50, savoury.getPrice(), 0.00);
+//    }
 }

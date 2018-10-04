@@ -2,12 +2,23 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="cddbe3ea-fe49-4fe2-931a-153f9da5a1c2" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/product/Drink.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/product/Product.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/product/Savoury.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/product/Sweet.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/DrinkTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/product/ProductType.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/vendingMachine/Stock.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/vendingMachine/slot/DrinkSlot.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/vendingMachine/slot/SavourySlot.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/vendingMachine/slot/Slot.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/vendingMachine/slot/SweetSlot.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/DrinkSlotTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/SavourySlotTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/SweetSlotTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/product/Drink.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/product/Drink.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/product/Product.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/product/Product.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/product/Savoury.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/product/Savoury.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/product/Sweet.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/product/Sweet.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/DrinkTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/DrinkTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/SavouryTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/SavouryTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/SweetTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/SweetTest.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/.gradle/" />
@@ -34,26 +45,26 @@
       <usages-collector id="statistics.file.extensions.open">
         <counts>
           <entry key="gitignore" value="1" />
-          <entry key="java" value="12" />
+          <entry key="java" value="33" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
           <entry key="Git file" value="1" />
-          <entry key="JAVA" value="12" />
+          <entry key="JAVA" value="33" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
-          <entry key="dummy" value="21" />
-          <entry key="java" value="1159" />
-          <entry key="txt" value="122" />
+          <entry key="dummy" value="24" />
+          <entry key="java" value="2348" />
+          <entry key="txt" value="143" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="JAVA" value="1159" />
-          <entry key="PLAIN_TEXT" value="143" />
+          <entry key="JAVA" value="2348" />
+          <entry key="PLAIN_TEXT" value="167" />
         </counts>
       </usages-collector>
     </session>
@@ -61,49 +72,13 @@
   <component name="FileEditorManager">
     <leaf>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/coin/CoinType.java">
+        <entry file="file://$PROJECT_DIR$/src/test/java/SweetTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="396">
-              <caret line="18" column="30" selection-start-line="18" selection-start-column="30" selection-end-line="18" selection-end-column="30" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/coin/Coin.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="88">
-              <caret line="13" column="5" selection-start-line="13" selection-start-column="5" selection-end-line="13" selection-end-column="5" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/test/java/CoinTest.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="326">
-              <caret line="26" column="5" lean-forward="true" selection-start-line="26" selection-start-column="5" selection-end-line="26" selection-end-column="5" />
+            <state relative-caret-position="269">
+              <caret line="23" column="38" selection-start-line="23" selection-start-column="38" selection-end-line="23" selection-end-column="38" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/product/Product.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="361">
-              <caret line="29" column="40" selection-start-line="29" selection-start-column="40" selection-end-line="29" selection-end-column="40" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/product/Savoury.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="198">
-              <caret line="9" lean-forward="true" selection-start-line="9" selection-end-line="9" />
             </state>
           </provider>
         </entry>
@@ -111,26 +86,47 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/product/Sweet.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="66">
-              <caret line="3" column="62" selection-start-line="3" selection-start-column="62" selection-end-line="3" selection-end-column="62" />
+            <state relative-caret-position="220">
+              <caret line="10" column="41" selection-start-line="10" selection-start-column="41" selection-end-line="10" selection-end-column="41" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/product/Drink.java">
+        <entry file="file://$PROJECT_DIR$/src/test/java/DrinkTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="110">
-              <caret line="5" column="5" lean-forward="true" selection-start-line="5" selection-start-column="5" selection-end-line="5" selection-end-column="5" />
+            <state relative-caret-position="257">
+              <caret line="13" column="32" selection-start-line="13" selection-start-column="32" selection-end-line="13" selection-end-column="32" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/test/java/SweetSlotTest.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state>
+              <caret column="26" selection-start-column="26" selection-end-column="26" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/test/java/SavourySlotTest.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state>
+              <caret column="28" selection-start-column="28" selection-end-column="28" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/test/java/DrinkTest.java">
+        <entry file="file://$PROJECT_DIR$/src/test/java/DrinkSlotTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="348">
-              <caret line="20" column="9" lean-forward="true" selection-start-line="20" selection-start-column="9" selection-end-line="20" selection-end-column="9" />
+            <state relative-caret-position="308">
+              <caret line="33" column="68" selection-start-line="33" selection-start-column="68" selection-end-line="33" selection-end-column="68" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -139,10 +135,28 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/vendingMachine/CoinBox.java">
+        <entry file="file://$PROJECT_DIR$/src/main/java/vendingMachine/slot/SweetSlot.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="141">
-              <caret line="23" column="48" selection-start-line="23" selection-start-column="48" selection-end-line="23" selection-end-column="48" />
+            <state relative-caret-position="136">
+              <caret line="12" column="41" selection-start-line="12" selection-start-column="41" selection-end-line="12" selection-end-column="41" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/vendingMachine/slot/SavourySlot.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="264">
+              <caret line="12" column="41" selection-start-line="12" selection-start-column="41" selection-end-line="12" selection-end-column="41" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/test/java/SavouryTest.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="134">
+              <caret line="24" column="5" selection-start-line="21" selection-start-column="4" selection-end-line="24" selection-end-column="5" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -151,13 +165,10 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/test/java/CoinBoxTest.java">
+        <entry file="file://$PROJECT_DIR$/src/main/java/vendingMachine/slot/DrinkSlot.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="180">
-              <caret line="45" column="8" selection-start-line="45" selection-start-column="8" selection-end-line="45" selection-end-column="8" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
+            <state relative-caret-position="264">
+              <caret line="12" column="41" lean-forward="true" selection-start-line="12" selection-start-column="41" selection-end-line="12" selection-end-column="41" />
             </state>
           </provider>
         </entry>
@@ -479,11 +490,25 @@
         <option value="$PROJECT_DIR$/src/main/java/vendingMachine/CoinBox.java" />
         <option value="$PROJECT_DIR$/src/test/java/CoinBoxTest.java" />
         <option value="$PROJECT_DIR$/src/test/java/ProductTest.java" />
+        <option value="$PROJECT_DIR$/src/main/java/product/drink/Drink.java" />
+        <option value="$PROJECT_DIR$/src/main/java/product/drink/Cola.java" />
+        <option value="$PROJECT_DIR$/src/test/java/StockTest.java" />
+        <option value="$PROJECT_DIR$/src/main/java/vendingMachine/Stock.java" />
+        <option value="$PROJECT_DIR$/src/main/java/product/ProductType.java" />
+        <option value="$PROJECT_DIR$/src/main/java/vendingMachine/Slot.java" />
         <option value="$PROJECT_DIR$/src/main/java/product/Product.java" />
+        <option value="$PROJECT_DIR$/src/main/java/vendingMachine/slot/Slot.java" />
+        <option value="$PROJECT_DIR$/src/test/java/SlotTest.java" />
         <option value="$PROJECT_DIR$/src/main/java/product/Savoury.java" />
+        <option value="$PROJECT_DIR$/src/test/java/SavouryTest.java" />
         <option value="$PROJECT_DIR$/src/main/java/product/Sweet.java" />
         <option value="$PROJECT_DIR$/src/main/java/product/Drink.java" />
+        <option value="$PROJECT_DIR$/src/main/java/vendingMachine/slot/DrinkSlot.java" />
+        <option value="$PROJECT_DIR$/src/main/java/vendingMachine/slot/SavourySlot.java" />
+        <option value="$PROJECT_DIR$/src/main/java/vendingMachine/slot/SweetSlot.java" />
+        <option value="$PROJECT_DIR$/src/test/java/SweetTest.java" />
         <option value="$PROJECT_DIR$/src/test/java/DrinkTest.java" />
+        <option value="$PROJECT_DIR$/src/test/java/DrinkSlotTest.java" />
       </list>
     </option>
   </component>
@@ -555,6 +580,15 @@
               <item name="Vending_Machine_Task" type="b2602c69:ProjectViewProjectNode" />
               <item name="Vending_Machine_Task" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="vendingMachine" type="462c0819:PsiDirectoryNode" />
+              <item name="slot" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Vending_Machine_Task" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Vending_Machine_Task" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="test" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
             </path>
             <path>
@@ -585,7 +619,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager">
+  <component name="RunManager" selected="JUnit.All in Vending_Machine_Task_test">
     <configuration name="All in Vending_Machine_Task_test" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="Vending_Machine_Task_test" />
       <option name="PACKAGE_NAME" value="" />
@@ -594,9 +628,32 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="DrinkTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="Vending_Machine_Task_test" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="DrinkTest" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="SavouryTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="Vending_Machine_Task_test" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="SavouryTest" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <list>
+      <item itemvalue="JUnit.All in Vending_Machine_Task_test" />
+      <item itemvalue="JUnit.DrinkTest" />
+      <item itemvalue="JUnit.SavouryTest" />
+    </list>
     <recent_temporary>
       <list>
         <item itemvalue="JUnit.All in Vending_Machine_Task_test" />
+        <item itemvalue="JUnit.SavouryTest" />
+        <item itemvalue="JUnit.DrinkTest" />
       </list>
     </recent_temporary>
   </component>
@@ -632,38 +689,45 @@
       <option name="project" value="LOCAL" />
       <updated>1538646612436</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="test passed sweet, savour, drink">
+      <created>1538648327916</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1538648327916</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="All_in_Vending_Machine_Task_test - 2018.10.04 at 10h 37m 17s.xml">
-      <configuration name="All in Vending_Machine_Task_test" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="All_in_Vending_Machine_Task_test - 2018.10.04 at 10h 37m 40s.xml">
-      <configuration name="All in Vending_Machine_Task_test" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="All_in_Vending_Machine_Task_test - 2018.10.04 at 10h 39m 49s.xml">
-      <configuration name="All in Vending_Machine_Task_test" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="All_in_Vending_Machine_Task_test - 2018.10.04 at 10h 40m 07s.xml">
-      <configuration name="All in Vending_Machine_Task_test" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="All_in_Vending_Machine_Task_test - 2018.10.04 at 10h 41m 35s.xml">
-      <configuration name="All in Vending_Machine_Task_test" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="All_in_Vending_Machine_Task_test - 2018.10.04 at 10h 45m 58s.xml">
-      <configuration name="All in Vending_Machine_Task_test" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="All_in_Vending_Machine_Task_test - 2018.10.04 at 10h 46m 21s.xml">
-      <configuration name="All in Vending_Machine_Task_test" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="All_in_Vending_Machine_Task_test - 2018.10.04 at 10h 47m 16s.xml">
-      <configuration name="All in Vending_Machine_Task_test" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="All_in_Vending_Machine_Task_test - 2018.10.04 at 10h 47m 59s.xml">
-      <configuration name="All in Vending_Machine_Task_test" configurationId="JUnit" />
-    </history-entry>
     <history-entry file="All_in_Vending_Machine_Task_test - 2018.10.04 at 10h 48m 08s.xml">
+      <configuration name="All in Vending_Machine_Task_test" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="All_in_Vending_Machine_Task_test - 2018.10.04 at 11h 15m 12s.xml">
+      <configuration name="All in Vending_Machine_Task_test" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="All_in_Vending_Machine_Task_test - 2018.10.04 at 11h 17m 11s.xml">
+      <configuration name="All in Vending_Machine_Task_test" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="All_in_Vending_Machine_Task_test - 2018.10.04 at 11h 18m 11s.xml">
+      <configuration name="All in Vending_Machine_Task_test" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="All_in_Vending_Machine_Task_test - 2018.10.04 at 11h 25m 08s.xml">
+      <configuration name="All in Vending_Machine_Task_test" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="All_in_Vending_Machine_Task_test - 2018.10.04 at 11h 56m 51s.xml">
+      <configuration name="All in Vending_Machine_Task_test" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="All_in_Vending_Machine_Task_test - 2018.10.04 at 12h 00m 30s.xml">
+      <configuration name="All in Vending_Machine_Task_test" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="SavouryTest - 2018.10.04 at 13h 06m 57s.xml">
+      <configuration name="SavouryTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="SavouryTest - 2018.10.04 at 13h 08m 44s.xml">
+      <configuration name="SavouryTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="All_in_Vending_Machine_Task_test - 2018.10.04 at 13h 12m 04s.xml">
       <configuration name="All in Vending_Machine_Task_test" configurationId="JUnit" />
     </history-entry>
   </component>
@@ -682,16 +746,16 @@
     <layout>
       <window_info id="Designer" />
       <window_info id="Favorites" side_tool="true" />
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.24959612" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.24959612" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info anchor="bottom" id="Version Control" weight="0.32715008" />
       <window_info anchor="bottom" id="Terminal" weight="0.32715008" />
       <window_info anchor="bottom" id="Event Log" side_tool="true" />
       <window_info anchor="bottom" id="Build" weight="0.32715008" />
-      <window_info anchor="bottom" id="Messages" weight="0.3288364" />
+      <window_info anchor="bottom" id="Messages" weight="0.32715008" />
       <window_info anchor="bottom" id="Message" order="0" />
-      <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.32715008" />
+      <window_info anchor="bottom" id="Find" order="1" weight="0.32715008" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.32715008" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -703,6 +767,30 @@
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
     </layout>
+    <layout-to-restore>
+      <window_info id="Designer" order="0" />
+      <window_info id="Favorites" order="1" side_tool="true" />
+      <window_info active="true" content_ui="combo" id="Project" order="2" visible="true" weight="0.24959612" />
+      <window_info id="Structure" order="3" side_tool="true" weight="0.25" />
+      <window_info anchor="bottom" id="Terminal" order="0" weight="0.32715008" />
+      <window_info anchor="bottom" id="Event Log" order="1" side_tool="true" />
+      <window_info anchor="bottom" id="Version Control" order="2" weight="0.32715008" />
+      <window_info anchor="bottom" id="Build" order="3" weight="0.32715008" />
+      <window_info anchor="bottom" id="Messages" order="4" weight="0.32715008" />
+      <window_info anchor="bottom" id="Message" order="5" />
+      <window_info anchor="bottom" id="Find" order="6" weight="0.32715008" />
+      <window_info anchor="bottom" id="Run" order="7" visible="true" weight="0.32715008" />
+      <window_info anchor="bottom" id="Debug" order="8" weight="0.4" />
+      <window_info anchor="bottom" id="Cvs" order="9" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="10" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="11" weight="0.3288364" />
+      <window_info anchor="right" id="Gradle" order="0" />
+      <window_info anchor="right" id="Palette&#9;" order="1" />
+      <window_info anchor="right" id="Maven Projects" order="2" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="3" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="4" weight="0.25" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="5" weight="0.25" />
+    </layout-to-restore>
   </component>
   <component name="VcsContentAnnotationSettings">
     <option name="myLimit" value="2678400000" />
@@ -711,7 +799,8 @@
     <MESSAGE value="refactor gitignore" />
     <MESSAGE value="test passed coin getType and getValue" />
     <MESSAGE value="test passed coinBox avoid 1p and 2p, add coins and get total value" />
-    <option name="LAST_COMMIT_MESSAGE" value="test passed coinBox avoid 1p and 2p, add coins and get total value" />
+    <MESSAGE value="test passed sweet, savour, drink" />
+    <option name="LAST_COMMIT_MESSAGE" value="test passed sweet, savour, drink" />
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/.gitignore">
@@ -772,38 +861,147 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/product/drink/Cola.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="44">
+          <caret line="2" column="31" selection-start-line="2" selection-start-column="31" selection-end-line="2" selection-end-column="31" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/vendingMachine/Stock.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="154">
+          <caret line="7" column="32" selection-start-line="7" selection-start-column="32" selection-end-line="7" selection-end-column="32" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/product/ProductType.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="132">
+          <caret line="6" lean-forward="true" selection-start-line="6" selection-end-line="6" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/product/Product.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="361">
-          <caret line="29" column="40" selection-start-line="29" selection-start-column="40" selection-end-line="29" selection-end-column="40" />
+        <state relative-caret-position="190">
+          <caret line="17" column="7" lean-forward="true" selection-start-line="15" selection-start-column="6" selection-end-line="17" selection-end-column="7" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/product/Savoury.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/vendingMachine/slot/Slot.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="198">
-          <caret line="9" lean-forward="true" selection-start-line="9" selection-end-line="9" />
+        <state relative-caret-position="220">
+          <caret line="10" column="25" lean-forward="true" selection-start-line="10" selection-start-column="25" selection-end-line="10" selection-end-column="25" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/product/Sweet.java">
+    <entry file="file://$PROJECT_DIR$/src/test/java/SlotTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="66">
-          <caret line="3" column="62" selection-start-line="3" selection-start-column="62" selection-end-line="3" selection-end-column="62" />
+        <state relative-caret-position="116">
+          <caret line="6" column="19" selection-start-line="6" selection-start-column="19" selection-end-line="6" selection-end-column="19" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/product/Drink.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="110">
-          <caret line="5" column="5" lean-forward="true" selection-start-line="5" selection-start-column="5" selection-end-line="5" selection-end-column="5" />
+        <state relative-caret-position="220">
+          <caret line="10" column="41" selection-start-line="10" selection-start-column="41" selection-end-line="10" selection-end-column="41" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/product/Savoury.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="220">
+          <caret line="10" column="41" selection-start-line="10" selection-start-column="41" selection-end-line="10" selection-end-column="41" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/product/Sweet.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="220">
+          <caret line="10" column="41" selection-start-line="10" selection-start-column="41" selection-end-line="10" selection-end-column="41" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/vendingMachine/slot/DrinkSlot.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="264">
+          <caret line="12" column="41" lean-forward="true" selection-start-line="12" selection-start-column="41" selection-end-line="12" selection-end-column="41" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/vendingMachine/slot/SavourySlot.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="264">
+          <caret line="12" column="41" selection-start-line="12" selection-start-column="41" selection-end-line="12" selection-end-column="41" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/vendingMachine/slot/SweetSlot.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="136">
+          <caret line="12" column="41" selection-start-line="12" selection-start-column="41" selection-end-line="12" selection-end-column="41" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/SavouryTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="134">
+          <caret line="24" column="5" selection-start-line="21" selection-start-column="4" selection-end-line="24" selection-end-column="5" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/SweetTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="269">
+          <caret line="23" column="38" selection-start-line="23" selection-start-column="38" selection-end-line="23" selection-end-column="38" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/DrinkTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="348">
-          <caret line="20" column="9" lean-forward="true" selection-start-line="20" selection-start-column="9" selection-end-line="20" selection-end-column="9" />
+        <state relative-caret-position="257">
+          <caret line="13" column="32" selection-start-line="13" selection-start-column="32" selection-end-line="13" selection-end-column="32" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/SweetSlotTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="26" selection-start-column="26" selection-end-column="26" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/SavourySlotTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="28" selection-start-column="28" selection-end-column="28" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/DrinkSlotTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="308">
+          <caret line="33" column="68" selection-start-line="33" selection-start-column="68" selection-end-line="33" selection-end-column="68" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>

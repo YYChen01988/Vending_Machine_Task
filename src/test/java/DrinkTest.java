@@ -1,6 +1,7 @@
 import org.junit.Before;
 import org.junit.Test;
 import product.Drink;
+import product.ProductType;
 
 import static org.junit.Assert.assertEquals;
 import static org.junit.Assert.assertNotNull;
@@ -10,7 +11,7 @@ public class DrinkTest {
 
     @Before
     public void before() {
-        drink = new Drink("Cola",01, 1.00);
+        drink = new Drink("Cola");
     }
 
     @Test
@@ -19,12 +20,17 @@ public class DrinkTest {
     }
 
     @Test
-    public void hasProductCode() {
-        assertEquals(01, drink.getProductCode());
+    public void hasType() {
+        assertEquals(ProductType.DRINK, drink.getProductType());
     }
-
-    @Test
-    public void hasPrice() {
-        assertEquals(1.00, drink.getPrice(), 0.00);
-    }
+//
+//    @Test
+//    public void hasProductCode() {
+//        assertEquals(01, drink.getProductCode());
+//    }
+//
+//    @Test
+//    public void hasPrice() {
+//        assertEquals(1.00, drink.getPrice(), 0.00);
+//    }
 }

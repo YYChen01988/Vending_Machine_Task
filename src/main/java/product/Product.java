@@ -2,32 +2,18 @@ package product;
 
 public abstract class Product {
     private String name;
-    private int productCode;
-    private double price;
+//    private ProductType type;
 
-    public Product(String name, int productCode, double price) {
+    public Product(String name) {
         this.name = name;
-        this.productCode = productCode;
-        this.price = price;
+//        this.type = type;
     }
 
     public String getName() {
         return name;
     }
 
-    public int getProductCode() {
-        return productCode;
-    }
-
-    public double getPrice() {
-        return price;
-    }
-
-    public void setProductCode(int productCode) {
-        this.productCode = productCode;
-    }
-
-    public void setPrice(double price) {
-        this.price = price;
-    }
+//    public ProductType getType() {
+//        return type;
+//    }
 }

@@ -1,7 +1,14 @@
 package product;
 
 public class Sweet extends Product {
-    public Sweet(String name, int productCode, double price) {
-        super(name, productCode, price);
+
+    private ProductType productType;
+    public Sweet(String name) {
+        super(name);
+        this.productType = ProductType.SWEET;
+    }
+
+    public ProductType getProductType() {
+        return productType;
     }
 }
