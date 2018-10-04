@@ -30,10 +30,14 @@ public class CoinBox {
         return this.coins.size();
     }
 
-    public double totalValue() {
+    public double totalCoinValue() {
         for (Coin coin : coins){
             total += coin.getValue();
         }
         return total;
+    }
+
+    public void clear() {
+        total = 0;
     }
 }

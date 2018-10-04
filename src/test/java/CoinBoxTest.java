@@ -21,7 +21,7 @@ public class CoinBoxTest {
     }
 
     @Test
-    public void getTotal() {
+    public void getStartTotal() {
         assertEquals(0, coinBox.getTotal(),0.00);
     }
 
@@ -35,7 +35,7 @@ public class CoinBoxTest {
         coinBox.addCoin(coin);
         coinBox.addCoin(coin2);
         assertEquals(2, coinBox.coinCount());
-        assertEquals(0.70, coinBox.totalValue(), 0.00);
+        assertEquals(0.70, coinBox.totalCoinValue(), 0.00);
     }
 
     @Test
@@ -45,7 +45,7 @@ public class CoinBoxTest {
         coinBox.addCoin(coin3);
         coinBox.addCoin(coin4);
         assertEquals(2, coinBox.coinCount());
-        assertEquals(0.70, coinBox.totalValue(), 0.00);
+        assertEquals(0.70, coinBox.totalCoinValue(), 0.00);
 
     }
 }
