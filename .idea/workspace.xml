@@ -2,10 +2,12 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="cddbe3ea-fe49-4fe2-931a-153f9da5a1c2" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/vendingMachine/CoinBox.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/CoinBoxTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/product/Drink.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/product/Product.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/product/Savoury.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/product/Sweet.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/DrinkTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/coin/Coin.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/coin/Coin.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/.gradle/" />
@@ -32,26 +34,26 @@
       <usages-collector id="statistics.file.extensions.open">
         <counts>
           <entry key="gitignore" value="1" />
-          <entry key="java" value="6" />
+          <entry key="java" value="12" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
           <entry key="Git file" value="1" />
-          <entry key="JAVA" value="6" />
+          <entry key="JAVA" value="12" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
-          <entry key="dummy" value="16" />
-          <entry key="java" value="918" />
-          <entry key="txt" value="71" />
+          <entry key="dummy" value="21" />
+          <entry key="java" value="1159" />
+          <entry key="txt" value="122" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="JAVA" value="918" />
-          <entry key="PLAIN_TEXT" value="87" />
+          <entry key="JAVA" value="1159" />
+          <entry key="PLAIN_TEXT" value="143" />
         </counts>
       </usages-collector>
     </session>
@@ -89,10 +91,46 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/vendingMachine/CoinBox.java">
+        <entry file="file://$PROJECT_DIR$/src/main/java/product/Product.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="34">
-              <caret line="25" column="9" selection-start-line="25" selection-start-column="9" selection-end-line="25" selection-end-column="9" />
+            <state relative-caret-position="361">
+              <caret line="29" column="40" selection-start-line="29" selection-start-column="40" selection-end-line="29" selection-end-column="40" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/product/Savoury.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="198">
+              <caret line="9" lean-forward="true" selection-start-line="9" selection-end-line="9" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/product/Sweet.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="66">
+              <caret line="3" column="62" selection-start-line="3" selection-start-column="62" selection-end-line="3" selection-end-column="62" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/product/Drink.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="110">
+              <caret line="5" column="5" lean-forward="true" selection-start-line="5" selection-start-column="5" selection-end-line="5" selection-end-column="5" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/test/java/DrinkTest.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="348">
+              <caret line="20" column="9" lean-forward="true" selection-start-line="20" selection-start-column="9" selection-end-line="20" selection-end-column="9" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -100,11 +138,23 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/vendingMachine/CoinBox.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="141">
+              <caret line="23" column="48" selection-start-line="23" selection-start-column="48" selection-end-line="23" selection-end-column="48" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/test/java/CoinBoxTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="299">
-              <caret line="47" column="55" selection-start-line="47" selection-start-column="55" selection-end-line="47" selection-end-column="55" />
+            <state relative-caret-position="180">
+              <caret line="45" column="8" selection-start-line="45" selection-start-column="8" selection-end-line="45" selection-end-column="8" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -428,6 +478,12 @@
         <option value="$PROJECT_DIR$/src/main/java/coin/Coin.java" />
         <option value="$PROJECT_DIR$/src/main/java/vendingMachine/CoinBox.java" />
         <option value="$PROJECT_DIR$/src/test/java/CoinBoxTest.java" />
+        <option value="$PROJECT_DIR$/src/test/java/ProductTest.java" />
+        <option value="$PROJECT_DIR$/src/main/java/product/Product.java" />
+        <option value="$PROJECT_DIR$/src/main/java/product/Savoury.java" />
+        <option value="$PROJECT_DIR$/src/main/java/product/Sweet.java" />
+        <option value="$PROJECT_DIR$/src/main/java/product/Drink.java" />
+        <option value="$PROJECT_DIR$/src/test/java/DrinkTest.java" />
       </list>
     </option>
   </component>
@@ -478,6 +534,14 @@
               <item name="main" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
               <item name="coin" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Vending_Machine_Task" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Vending_Machine_Task" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="product" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="Vending_Machine_Task" type="b2602c69:ProjectViewProjectNode" />
@@ -561,22 +625,17 @@
       <option name="project" value="LOCAL" />
       <updated>1538644785968</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="test passed coinBox avoid 1p and 2p, add coins and get total value">
+      <created>1538646612436</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1538646612436</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="All_in_Vending_Machine_Task_test - 2018.10.04 at 10h 11m 33s.xml">
-      <configuration name="All in Vending_Machine_Task_test" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="All_in_Vending_Machine_Task_test - 2018.10.04 at 10h 12m 04s.xml">
-      <configuration name="All in Vending_Machine_Task_test" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="All_in_Vending_Machine_Task_test - 2018.10.04 at 10h 18m 45s.xml">
-      <configuration name="All in Vending_Machine_Task_test" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="All_in_Vending_Machine_Task_test - 2018.10.04 at 10h 25m 53s.xml">
-      <configuration name="All in Vending_Machine_Task_test" configurationId="JUnit" />
-    </history-entry>
     <history-entry file="All_in_Vending_Machine_Task_test - 2018.10.04 at 10h 37m 17s.xml">
       <configuration name="All in Vending_Machine_Task_test" configurationId="JUnit" />
     </history-entry>
@@ -590,6 +649,21 @@
       <configuration name="All in Vending_Machine_Task_test" configurationId="JUnit" />
     </history-entry>
     <history-entry file="All_in_Vending_Machine_Task_test - 2018.10.04 at 10h 41m 35s.xml">
+      <configuration name="All in Vending_Machine_Task_test" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="All_in_Vending_Machine_Task_test - 2018.10.04 at 10h 45m 58s.xml">
+      <configuration name="All in Vending_Machine_Task_test" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="All_in_Vending_Machine_Task_test - 2018.10.04 at 10h 46m 21s.xml">
+      <configuration name="All in Vending_Machine_Task_test" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="All_in_Vending_Machine_Task_test - 2018.10.04 at 10h 47m 16s.xml">
+      <configuration name="All in Vending_Machine_Task_test" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="All_in_Vending_Machine_Task_test - 2018.10.04 at 10h 47m 59s.xml">
+      <configuration name="All in Vending_Machine_Task_test" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="All_in_Vending_Machine_Task_test - 2018.10.04 at 10h 48m 08s.xml">
       <configuration name="All in Vending_Machine_Task_test" configurationId="JUnit" />
     </history-entry>
   </component>
@@ -611,13 +685,13 @@
       <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.24959612" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info anchor="bottom" id="Version Control" weight="0.32715008" />
-      <window_info anchor="bottom" id="Terminal" weight="0.3288364" />
+      <window_info anchor="bottom" id="Terminal" weight="0.32715008" />
       <window_info anchor="bottom" id="Event Log" side_tool="true" />
       <window_info anchor="bottom" id="Build" weight="0.32715008" />
       <window_info anchor="bottom" id="Messages" weight="0.3288364" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.32715008" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.32715008" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -636,23 +710,14 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="refactor gitignore" />
     <MESSAGE value="test passed coin getType and getValue" />
-    <option name="LAST_COMMIT_MESSAGE" value="test passed coin getType and getValue" />
+    <MESSAGE value="test passed coinBox avoid 1p and 2p, add coins and get total value" />
+    <option name="LAST_COMMIT_MESSAGE" value="test passed coinBox avoid 1p and 2p, add coins and get total value" />
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/.gitignore">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="138">
           <caret line="24" lean-forward="true" selection-start-line="24" selection-end-line="24" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/CoinTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="326">
-          <caret line="26" column="5" lean-forward="true" selection-start-line="26" selection-start-column="5" selection-end-line="26" selection-end-column="5" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -679,8 +744,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/vendingMachine/CoinBox.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="34">
-          <caret line="25" column="9" selection-start-line="25" selection-start-column="9" selection-end-line="25" selection-end-column="9" />
+        <state relative-caret-position="141">
+          <caret line="23" column="48" selection-start-line="23" selection-start-column="48" selection-end-line="23" selection-end-column="48" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
@@ -689,8 +754,56 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/CoinBoxTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="299">
-          <caret line="47" column="55" selection-start-line="47" selection-start-column="55" selection-end-line="47" selection-end-column="55" />
+        <state relative-caret-position="180">
+          <caret line="45" column="8" selection-start-line="45" selection-start-column="8" selection-end-line="45" selection-end-column="8" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/CoinTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="326">
+          <caret line="26" column="5" lean-forward="true" selection-start-line="26" selection-start-column="5" selection-end-line="26" selection-end-column="5" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/product/Product.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="361">
+          <caret line="29" column="40" selection-start-line="29" selection-start-column="40" selection-end-line="29" selection-end-column="40" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/product/Savoury.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="198">
+          <caret line="9" lean-forward="true" selection-start-line="9" selection-end-line="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/product/Sweet.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="66">
+          <caret line="3" column="62" selection-start-line="3" selection-start-column="62" selection-end-line="3" selection-end-column="62" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/product/Drink.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="110">
+          <caret line="5" column="5" lean-forward="true" selection-start-line="5" selection-start-column="5" selection-end-line="5" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/DrinkTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="348">
+          <caret line="20" column="9" lean-forward="true" selection-start-line="20" selection-start-column="9" selection-end-line="20" selection-end-column="9" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
