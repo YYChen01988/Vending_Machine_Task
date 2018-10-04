@@ -1,6 +1,6 @@
 package coin;
 
-public enum CoinValue {
+public enum CoinType {
     ONE(0.01),
     TWO(0.02),
     FIVE(0.05),
@@ -12,7 +12,7 @@ public enum CoinValue {
 
     private final double value;
 
-    CoinValue(double value){
+    CoinType(double value){
         this.value = value;
     }
 
